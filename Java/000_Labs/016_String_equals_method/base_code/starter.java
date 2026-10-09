@@ -8,7 +8,7 @@ import java.util.Random;
 
 class starter {
 	public static void main(String args[]) {
-	System.out.print("Which role would you like to become?");	
+	System.out.println("Which role would you like to become?");	
 		
 		String x = " Wizard";
 		
@@ -16,15 +16,16 @@ class starter {
 		
 		String z = " Rogue";
 
-		System.out.print(x);
-		System.out.print(z);
-		System.out.print(y);
+		
 	
-
-
+	System.out.println("Choose your character");
+	System.out.println(x + y + z);
 	
+	Scanner sc = new Scanner(System.in);
+	System.out.print("Enter your character choice ");
+	String choice = sc.nextLine();
 	
-	
+	System.out.println("x equals choice: " + x.equals(choice));
 	
 	
 	}
