@@ -9,7 +9,6 @@ import java.util.Random;
 class starter {
 	public static void main(String args[]) {
 	System.out.println("Which role would you like to become?");	
-		
 		String x = " Wizard";
 		
 		String y = " Warrior";
